@@ -1,0 +1,8 @@
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\bin\Debug\StringsExerciseV2.exe.config
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\bin\Debug\StringsExerciseV2.exe
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\bin\Debug\StringsExerciseV2.pdb
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\obj\Debug\StringsExerciseV2.csproj.AssemblyReference.cache
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\obj\Debug\StringsExerciseV2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\obj\Debug\StringsExerciseV2.csproj.CoreCompileInputs.cache
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\obj\Debug\StringsExerciseV2.exe
+C:\Users\Aaron Singleterry\source\repos\StringsExerciseV2\obj\Debug\StringsExerciseV2.pdb
