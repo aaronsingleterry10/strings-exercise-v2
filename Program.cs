@@ -10,7 +10,39 @@ namespace StringsExerciseV2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            /*
+            4 - Write a program and ask the user 
+            to enter a few words separated by a space.
+            Use the words to create a variable name 
+            with PascalCase. For example, if the user 
+            types: "number of students", display "NumberOfStudents".
+            Make sure that the program is not dependent on the input. 
+            So, if the user types "NUMBER OF STUDENTS", the program 
+            should still display "NumberOfStudents".
+            */
+            //arrayInput[i] = arrayInput[i].Replace(arrayInput[i].Substring(0, 1), arrayInput[i].Substring(0, 1).ToUpper());
+
+            Console.Write("Enter a few words separated by a space: ");
+            var input = Console.ReadLine();
+            var arrayInput = input.Split(' ');
+            for (var i = 0; i < arrayInput.Length; i++)
+            {
+                arrayInput[i] = arrayInput[i].ToLower();
+                var letter = arrayInput[i].Substring(0, 1).ToUpper();
+                var restOfWord = arrayInput[i].Substring(1);
+                var newWord = letter + restOfWord;
+                arrayInput[i] = newWord;
+            }
+
+            var newString = String.Join("", arrayInput);
+            Console.WriteLine(newString);
+
+            /*
+            5 - Write a program and ask the user to enter an 
+            English word.Count the number of vowels(a, e, o, u, i) 
+            in the word. So, if the user enters "inadequate", the program 
+            should display 6 on the console.
+            */
         }
     }
 }
